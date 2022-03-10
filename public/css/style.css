@@ -1,0 +1,107 @@
+.calc-body{
+    width: 25rem;
+    height: 38rem;
+    margin-top: 2rem; 
+    position: relative;   
+}
+
+.calc-screen{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: xx-large; 
+}
+
+#equation{
+    font-size: medium;
+}
+
+#message{
+    font-size: medium;
+    color: brown;
+}
+
+#clear_btn{
+    color: white !important;  
+    background: rgb(20, 97, 20) 
+}
+
+.delete_op{
+    color: white !important;  
+    background:  rgb(165, 69, 69); 
+    margin-left: 10rem !important;
+    
+}
+
+#clear_btn:hover{
+    background-color: rgb(63, 134, 15) !important ;
+    color: white !important;
+}
+
+.delete_op:hover{
+    background-color: rgb(128, 12, 12) !important ;
+    color: white !important;
+}
+
+.holder{
+    min-height: 7rem;
+    min-width: 6rem;
+    overflow: hidden;
+}
+
+#label{
+    font-size: small;
+    color: white;
+    padding-bottom: 0.5rem;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.op{
+    color: rgb(0, 132, 255);
+    font-weight: 700;
+}
+
+.op:hover{
+    color: white;
+    background-color: rgb(0, 132, 255);
+}
+
+.screen-svg{
+    height: 5rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#calc-buttons{
+    padding-left: 2rem;
+    font-weight: 900;
+}
+
+#calc-buttons span {
+    display: inline-block;
+    width: 71px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 70%;  
+  }
+
+#calc-buttons span:hover {
+    background-color: rgb(0, 132, 255);
+    border-radius: 70%;
+}
+
+ .hoverTrial{
+    color: white;
+    background-color: rgb(0, 132, 255);
+ }
+ 
+
